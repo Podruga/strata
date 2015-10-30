@@ -41,7 +41,7 @@ Person.prototype.reduceHealth = function(damage, attacker, isCounterAttack){
   if(Utilits.chance() && !isCounterAttack) this.attack(attacker, true);
 }
 
-// move to equipments
+// move to equipments 
 Person.prototype.calculateItemBonus = function(bonusName){
   var totalBonus = 0;
   for(var e in this.equipments){
