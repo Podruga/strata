@@ -1,5 +1,5 @@
 var Person, Skill, Item, Position, Environment, Place, Utilits;
-
+//comment
 
 // PERSON
 Person = function(args){
